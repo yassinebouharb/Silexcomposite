@@ -57,8 +57,8 @@
               <li class="active"><a href="index.html">Home</a></li>
 
 
-              <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="about.html">About</a></li>
+              <li><a href="portfolio.html">Nos Produits</a></li>
+                  <li><a href="about.html">Notre histoire</a></li>
                   <li><a href="contact.html">Contact</a></li>
             </ul>
 
@@ -70,34 +70,62 @@
 
     </div> <!-- END container -->
 
+    <style>
+      /* Styles pour la bannière avec image de fond */
+      .banner {
+        width: 100%;
+        height: 80vh;
+        background: url("images/banner10.png"),
+        linear-gradient(to bottom right, rgb(79, 63, 70, 0.7), rgba(229, 231, 230, 0.6));
+        background-position: center;
+        background-size: 100%; /* Ajuste la taille de l'image pour couvrir complètement la bannière */
+        background-repeat: no-repeat;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+        position: relative; /* Position relative pour le positionnement absolu du contenu */
+      }
 
-    <div class="hero-slant overlay img-fluid" data-stellar-background-ratio="0.5" style="background-image: url('images/banner10.png'); ">
+      /* Styles pour le contenu à l'intérieur de la bannière */
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 5%; /* Ajuste davantage la position à gauche */
+        transform: translateY(-50%);
+        text-align: left; /* Aligne le texte à gauche */
+        color: white;
+        padding: 20px; /* Ajoute un espacement intérieur */
+        width: 70%; /* Largeur du contenu */
+        max-width: 600px; /* Largeur maximale du contenu */
+      }
 
-      <div class="container">
+      .content h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
 
-        <div class="row align-items-center justify-content-between">
+      .content p {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        color: black;
 
-          <div class="col-lg-7 intro">
-
-
-
-            <h1 class="text-black font-weight-bold mb-4" data-aos="fade-up" data-aos-delay="0" style="font-size: 5em;">Élégance sculptée</h1>
-            <p class="text-black mb-4" data-aos="fade-up" data-aos-delay="100">Des designs qui racontent une histoire.</p>
-
-          </div>
-
-
-        </div>
+      }
+    </style>
+    <div class="banner">
+      <div class="content">
+        <h1>Élégance sculptée</h1>
+        <p>Des designs qui racontent une histoire.</p>
 
 
       </div>
 
-      <div class="slant" style="background-image: url('images/slant.svg');"></div>
     </div>
 
 
+    </div>
 
-    
+
      <div class="site-section">
       <div class="container">
         <div class="row mb-5">
