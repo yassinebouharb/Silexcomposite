@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="author" content="Untree.co">
+  <meta name="author" content="Bouharb">
   <link rel="shortcut icon" href="favicon.png">
 
   <meta name="description" content="" />
@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="css/aos.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Append Free HTML Template by Untree.co</title>
+  <title>Silex composite</title>
 </head>
 <body>
 
@@ -62,6 +62,9 @@
                   <li><a href="contact.html">Contact</a></li>
             </ul>
 
+              <a href="#" class="burger light ml-auto site-menu-toggle js-menu-toggle d-block d-lg-none" data-toggle="collapse" data-target="#main-navbar">
+                  <span></span>
+              </a>
 
           </div>
 
@@ -71,46 +74,44 @@
     </div> <!-- END container -->
 
     <style>
-      /* Styles pour la bannière avec image de fond */
-      .banner {
-        width: 100%;
-        height: 100vh;
-        background: url("images/banner10.png"),
-        linear-gradient(to bottom right, rgb(79, 63, 70, 0.7), rgba(229, 231, 230, 0.6));
-        background-position: center;
-        background-size: cover; /* Ajuste la taille de l'image pour couvrir complètement la bannière */
-        background-repeat: no-repeat;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
-        position: relative; /* Position relative pour le positionnement absolu du contenu */
-      }
+        .banner {
+            width: 100%;
+            height: 80vh;
 
-      /* Styles pour le contenu à l'intérieur de la bannière */
-      .content {
-        position: absolute;
-        top: 50%;
-        left: 5%; /* Ajuste davantage la position à gauche */
-        transform: translateY(-50%);
-        text-align: left; /* Aligne le texte à gauche */
-        color: white;
-        padding: 20px; /* Ajoute un espacement intérieur */
-        width: 70%; /* Largeur du contenu */
-        max-width: 600px; /* Largeur maximale du contenu */
-      }
+            background-size: contain; /* Ajuste la taille de l'image pour couvrir complètement la bannière */
+            /* Empêche le défilement de l'image de fond */
+            background: linear-gradient(to bottom right, rgba(79, 63, 70, 0.7), rgba(250, 118, 156, 0.2)) ,
+            url("images/banner11.png") no-repeat fixed center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+            position: relative; /* Retirez position:absolute pour permettre le défilement sur mobile */
+        }
 
-      .content h1 {
-        font-size: 3em;
-        font-weight: bold;
-        margin-bottom: 20px;
-        text-transform: uppercase;
-      }
+        /* Styles pour le contenu à l'intérieur de la bannière */
+        .content {
+            position: absolute;
+            top: 80%; /* Déplace le contenu à 50% du haut */
+            left: 50%; /* Déplace le contenu à 50% de la gauche */
+            transform: translate(-50%, -50%); /* Déplace le contenu de moitié de sa largeur et de sa hauteur pour le centrer */
+            text-align: center; /* Centre le texte horizontalement */
+            color: white;
+            padding: 20px; /* Ajoute un espacement intérieur */
+            width: 80%; /* Largeur du contenu */
+            max-width: 600px; /* Largeur maximale du contenu */
+        }
 
-      .content p {
-        font-size: 1.5em;
-        margin-bottom: 30px;
-        line-height: 1.6;
-        color: black;
+        .content h1 {
+            font-size: 3em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
 
-      }
+        .content p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            color: black;
+        }
     </style>
     <div class="banner">
       <div class="content">
