@@ -101,7 +101,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .form-control, .custom-select {
   border: 2px solid #e9ecef;
   font-size: 16px;
-  height: 45px; }
+  height: 40px; }
   .form-control:active, .form-control:focus, .custom-select:active, .custom-select:focus {
     border-color: #e84545;
     -webkit-box-shadow: none;
@@ -137,7 +137,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+
+}
 
 .loader {
   z-index: 7700;
@@ -1253,7 +1255,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   display: inline-block;
   width: 50px;
   height: 50px;
-  border-radius: 4px;
+  border-radius: 20px;
   position: relative;
   color: #e84545;
   background-color: #ffffff; }
@@ -1279,9 +1281,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-size: 20px; }
 
 .service-2.link {
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 10px;
-  border-radius: 7px; }
+  border-radius: 20px; }
   .service-2.link .service-contents {
     color: #939393; }
     .service-2.link .service-contents *:last-child {
@@ -1301,10 +1303,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       background-color: #e84545; }
 
 .section-grey {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   background: #f5f5f5; }
-  @media (max-width: 991.98px) {
+  @media (max-width: 600.98px) {
     .section-grey .img-wrap .img {
       margin-top: 0; } }
 
