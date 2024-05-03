@@ -74,22 +74,57 @@
     </div> <!-- END container -->
 
 
-    <div class="hero-slant overlay" data-stellar-background-ratio="0.5" style="background-image: url('images/banner15.jpg')">
+    <style>
+      .banner {
+        width: 100%;
+        height: 80vh;
 
-      <div class="container">
-        <div class="row align-items-center justify-content-center">
-          <div class="col-lg-7 intro text-center">
-            <h1 class="text-white font-weight-bold mb-4" data-aos="fade-up" data-aos-delay="0">Plongez dans notre  histoire </h1>
+        background-size: contain; /* Ajuste la taille de l'image pour couvrir complètement la bannière */
+        /* Empêche le défilement de l'image de fond */
+        background: linear-gradient(to bottom right, rgba(79, 63, 70, 0.7), rgba(250, 118, 156, 0.2)) ,
+        url("images/banner15.jpg") no-repeat fixed center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+        position: relative; /* Retirez position:absolute pour permettre le défilement sur mobile */
+      }
 
-            
-          
-          </div>
-          
-          
-        </div>
+      /* Styles pour le contenu à l'intérieur de la bannière */
+      .content {
+        position: absolute;
+        top: 80%; /* Déplace le contenu à 50% du haut */
+        left: 50%; /* Déplace le contenu à 50% de la gauche */
+        transform: translate(-50%, -50%); /* Déplace le contenu de moitié de sa largeur et de sa hauteur pour le centrer */
+        text-align: center; /* Centre le texte horizontalement */
+        color: white;
+        padding: 20px; /* Ajoute un espacement intérieur */
+        width: 80%; /* Largeur du contenu */
+        max-width: 600px; /* Largeur maximale du contenu */
+      }
 
-        
+      .content h1 {
+        font-size: 3em;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+
+      .content p {
+        font-size: 1.5em;
+        margin-bottom: 30px;
+        line-height: 1.6;
+        color: black;
+      }
+    </style>
+    <div class="banner">
+      <div class="content">
+        <h1>Plongez dans notre histoire </h1>
+
+
       </div>
+
+    </div>
+
+
+    </div>
 
       <div class="slant" style="background-image: url('images/slant.svg');"></div>
     </div>
