@@ -57,7 +57,7 @@ main {
     min-height: 35vh;
     padding-top: 15vh;
     width: calc(var(--timeline-width) / 2);
-    padding-inline: 50px;
+    padding-inline: 20px;
 &::before {
      position: absolute;
      top: 0;
