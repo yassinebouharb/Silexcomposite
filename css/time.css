@@ -2344,7 +2344,9 @@ img {
     width: 100%; /* La largeur de l'image occupera 100% de la largeur de la colonne */
     height: auto; /* La hauteur s'ajustera automatiquement pour conserver les proportions */
     border-radius: 10px; /* Arrondir les coins de l'image */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ajouter une ombre légère */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;/* Marge en haut pour séparer du paragraphe précédent */
+/* Ajouter une ombre légère */
 }
 
 /* Style pour le titre "Who We Are" */
