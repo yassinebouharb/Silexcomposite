@@ -78,7 +78,7 @@ main {
      position: absolute;
      top: 20px;
      right: 40px;
-     width: 80%;
+     width: 50%;
      height: calc(15vh - 20px);
      border-width: 3px 0 0 3px;
      border-style: dashed;
