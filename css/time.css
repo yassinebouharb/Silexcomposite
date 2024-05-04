@@ -33,7 +33,7 @@
 main {
     --timeline-width: 100%;
     position: relative;
-    padding-block: 40px;
+    padding-block: 100px;
 
     max-width: 1000px;
     margin-inline: auto;
@@ -57,7 +57,7 @@ main {
     min-height: 35vh;
     padding-top: 15vh;
     width: calc(var(--timeline-width) / 2);
-    padding-inline: 20px;
+    padding-inline: 8px;
 &::before {
      position: absolute;
      top: 0;
@@ -246,7 +246,7 @@ p {
         margin-bottom: 30px;
         margin-left: 33px;
         width: calc(var(--timeline-width) - 33px);
-        padding-inline: 20px 8px;
+        padding-inline: 8px 8px;
 &::before {
      right: auto;
      left: 0;
