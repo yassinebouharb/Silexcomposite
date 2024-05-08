@@ -17,7 +17,7 @@ body {
   line-height: 1.8;
   font-size: 15px;
   color: #7a7a7a;
-  background: #fff;
+  background: #F8F8FF;
   overflow-x: hidden; }
   body:before {
     content: "";
@@ -568,15 +568,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   outline: none; }
 
 .overlay-svg {
-  background-image: url("../images/overlay.svg");
-  background-position: center center;
+  background-image: url("../images/overlay.png");
+  background-position: left ;
   background-repeat: no-repeat;
-  position: absolute;
+  position: relative;
   height: 100vh;
-  min-height: 600px;
+  min-height: 60px;
   width: 100%;
-  top: 0;
-  background-size: cover; }
+  top: 800px;
+  background-size: cover;
+  z-index: 999;
+ }
 
 .wrap-slider {
   -webkit-box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
@@ -634,7 +636,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       display: -ms-grid;
       display: grid;
       position: relative;
-      -ms-grid-columns: (1fr)[12];
       grid-template-columns: repeat(12, 1fr); }
     .section-stack .image-stack__item--bottom {
       grid-column: 4 / -1;
@@ -2148,4 +2149,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   100% {
     transform: scale(1);
   }
+}
+.btn-primary {
+  background-color: #f96d6d; /* Changement de la couleur du fond */
+  border-color: #f96d6d; /* Changement de la couleur de la bordure (si nécessaire) */
 }
