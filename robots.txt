@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Disallow: /images/
+Sitemap: https://silex-composite.netlify.app/sitemap.xml
